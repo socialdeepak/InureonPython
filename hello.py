@@ -65,3 +65,9 @@ for i in dict_1:
             biggest = dict_1[i][j]
     print(biggest)
 
+
+for i in dict_1.values():
+    lst =[]
+    for j in i.values():
+        lst.append(j)
+    print(max(lst))
